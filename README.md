@@ -1,24 +1,24 @@
-Web Multi-Media Demostration
+﻿Web Multimedia Demonstration
 ==========================================================================
 
 Purpose
 ==========================================================================
-To test how different types fo browswers and mult-media interact. The
-website will provide the users with an opptinutiy to compare and contrast
-the content. It will also allow the users to test tequinies used to
-display the content easilty.
+To test how different types of browsers and multimedia interact. The
+website will provide the users with an opportunity to compare and contrast
+the content. It will also allow the users to test techniques used to
+display the content easily.
 
-Audidence
+Audience
 ==========================================================================
-* Website Desginers
+* Website Designers
 * Browser Users
 * Developers
 
 Contents
 ==========================================================================
-* Code Exmaples
-* Code Demostrations
-* Embeded Media
+* Code Examples
+* Code Demonstrations
+* Embedded Media
 * Code Descriptions
 * Live data
 
@@ -41,17 +41,17 @@ Web Site Map
 ```
 Figure 1.0: Site Relation diagram
 
-The diagram illistraties the major pages and the navigation routes between
-the pages. Note the Media pages are sub-pages of home and thus inhert the
+The diagram illustrates the major pages and the navigation routes between
+the pages. Note the Media pages are sub-pages of home and thus inherit the
 navigation of the home page.
 
-Note: The media pages themsevels may have additonal organize schems the
+Note: The media pages themselves may have additional organize scheme the
 user may use to navigate the site.
 
 Page Layout
 ==========================================================================
-This section will list pesudo code showing the basic structure of the
-differnt pages. The pages represent single topics and navigation points in
+This section will list pseudo-code showing the basic structure of the
+different pages. The pages represent single topics and navigation points in
 the site.
 
 Landing
@@ -60,16 +60,16 @@ The Landing page is used to display information about the user and provide
 information about how to use the web site.
 
 ```
-<banner: contianer>
+<banner: container>
 <about: link>
-<basic browser infromation: form>
+<basic browser information: form>
 <footer: container>
 ```
 
 About
 --------------------------------------------------------------------------
-The about page is used to display legal, author and infomration not
-pretaining to the site itself.
+The about page is used to display legal, author and information not
+pertaining to the site itself.
 
 ```
 <banner: container>
@@ -80,44 +80,44 @@ pretaining to the site itself.
 
 Home
 --------------------------------------------------------------------------
-The home page is used to display the various differnt topics on the site.
+The home page is used to display the various different topics on the site.
 The page also is the main point of navigation for the site.
 
 ```
-<header: contianer>
+<header: container>
 <site menu: container>
 <media menu: container>
 <footer: container>
 ```
 
-Analutics
+Analytics
 --------------------------------------------------------------------------
 This page is used to display live data that is collected by the client.
 
 ```
 <header: container>
 <data: container>
-<appendex: contianer>
+<appendix: container>
 <footer: container>
 ```
 
 Media
 --------------------------------------------------------------------------
-These pages are used to display and demostrate indiviual media types / 
+These pages are used to display and demonstrate individual media types /
 content.
 
 ```
 <header: container>
-<media information: paragrah>
-<media: contianer>
+<media information: paragraph>
+<media: container>
 <media details: code>
 <footer: container>
 ```
 
 Section Layout
 ==========================================================================
-The sections consite of web site parts or templates used in the above
-skeletopn.
+The sections consist of web site parts or templates used in the above
+skeleton.
 
 Header
 --------------------------------------------------------------------------
@@ -130,25 +130,25 @@ Footer
 --------------------------------------------------------------------------
 ```
 <copyright><author info>
-<legal discalimer>
+<legal disclaimer>
 ```
 
 Media
 --------------------------------------------------------------------------
 ```
 <media title>
-<media descriiption>
+<media description>
 <media container>
   <media data>
 <end media container>
 ```
 
-Appendex
+Appendix
 --------------------------------------------------------------------------
 ```
 <term list container>
   <term><description>
-<end term list contianer>
+<end term list container>
 ```
 
 Data
