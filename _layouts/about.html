@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ site.name }}</title>
+<meta name="description" content="{{ site.description }}">
+</head>
+
+<body>
+{% include banner.html %}
+{{ content }}
+<nav>
+<a href="/index">Browser Information</a>
+</nav>
+{{ content }}
+{% include footer.html %}
+</body>
+
+</html> 
