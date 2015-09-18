@@ -1,0 +1,17 @@
+markdown: rdiscount
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: pygements
+relative_permalinks: false
+safe: true
+future: false
+
+repository: https://vashman.github.io/web_media
+
+# Directory Structure
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
