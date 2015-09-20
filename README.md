@@ -85,7 +85,7 @@ pertaining to the site itself.
 
 Home
 --------------------------------------------------------------------------
-The home page is used to display the various different topics on the site.
+The home page is used to display the various different topics on the site
 The page also is the main point of navigation for the site.
 
 ```

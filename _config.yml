@@ -1,9 +1,13 @@
+# Output
 #markdown: rdiscount
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygements
 relative_permalinks: false
 safe: true
 future: false
+sass:
+  style: compressed
+  sass_dir: _sass
 
 repository: https://vashman.github.io/web_media
 
