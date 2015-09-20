@@ -1,4 +1,9 @@
-﻿Web Multimedia Demonstration
+﻿---
+layout: about
+title: About
+---
+
+Web Multimedia Demonstration
 ==========================================================================
 
 Purpose
