@@ -1,4 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygements
 relative_permalinks: false
@@ -15,3 +15,4 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 collections:  null
+baseurl: /web_media
