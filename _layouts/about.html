@@ -9,11 +9,15 @@
 <body>
 {% include banner.html %}
 
-<nav>
-<a href="/index">Browser Information</a>
-</nav>
+<div class="nav">
+<nav class="nav">
+<a href="{{ site.baseurl }}/">Browser Information</a>
+</nav></div>
 
+<div class="content">
 {{ content }}
+</div>
+
 {% include footer.html %}
 </body>
 
