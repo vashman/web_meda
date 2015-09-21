@@ -1,0 +1,35 @@
+---
+---
+
+/* Vintage theme */
+.nav {
+
+ul {
+  list-style:none;
+
+a {
+  font-family: "League-Gothic", Courier;
+  text-transform: uppercase;
+  color: #707070;
+  text-shadow: 1px 1px 0px #eee, 1px 1px 0px #707070;
+} /* ul.a */
+} /* nav.ul */
+
+li {
+}
+} /* nav */
+
+ul.nav a:visited{
+  text-transform: lowercase;
+  color: #707070;
+  text-shadow: 1px 2px 1px #eee, 2px 2px 3px #707070;
+}
+
+ul.nav a:hover{
+  text-transform: uppercase;
+  color: #707070;
+  text-shadow: 1px 2px 1px #eee, 2px 2px 5px #707070;
+}
+
+div.nav {
+}

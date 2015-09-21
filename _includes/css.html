@@ -1,0 +1,21 @@
+<noscript>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/layout/default.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme/default.css">
+</noscript>
+<script type="text/javascript">
+var theme = get_cookie("theme");
+var layout = get_cookie("layout");
+
+document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/theme');
+  if (theme != "") {
+  document.write(theme + '">');
+  } else {
+  document.write('default.css">');
+  }
+document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/layout/');
+  if (layout != "") {
+  document.write(layout + '">');
+  } else {
+  document.write('default.css">');
+  }
+</script>

@@ -1,0 +1,10 @@
+<div>
+<form>
+{% for layout in site.data.layout %}
+<input type="radio" name="layout" value="{{ layout }}">
+{% endfor %}
+{% for theme in site.data.theme %}
+<input type="radio" name="theme" value="{{ theme }}">
+{% endfor %}
+</form>
+</div>

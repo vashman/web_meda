@@ -1,4 +1,28 @@
 ---
 ---
 
+/* Vintage layout */
+nav {
 
+div {
+  align:left;
+  position: fixed;
+  margin:0px;
+  width:12%;
+  float:left;
+  clear:left;
+} /* nav.div */
+
+ul {
+
+a {
+  text-align:left;
+} /* a */ } /* ul */ } /* nav */
+
+ul.nav a:visited {
+  text-align:left;
+}
+
+ul.nav a:hover {
+  text-align: center;
+}
