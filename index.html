@@ -17,6 +17,11 @@ Javascript: <script type="text/javascript"> document.write("Enabled")</script> <
 <p>
 Site build on: {{ site.time }}
 </p><p>
-Site hosted at: https://vashman.github.io/web_media
+Site hosted at: {{ site.repository }}
+</p>
+
+<p>
+{% assign a = site.data.people[nav] %}
+{{ a.tag }}
 </p>
 </div>

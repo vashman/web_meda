@@ -1,7 +1,22 @@
-navigation: nav
-banner: "banner"
-header: "header"
-footer: "footer"
-content: "content"
-information: "information"
-warning: "warning"
+# Tags used by; html, css, javascript, jekyll
+navigation:
+  tag: "nav"
+  description: navigation menu
+banner:
+  tag: "banner"
+  description: site logo / banner / tradmark
+header:
+  tag: "header"
+  description: null
+footer:
+  tag: "footer"
+  description: null
+content:
+  tag: "content"
+  description: null
+information:
+  tag: "information"
+  description: null
+warning:
+  tag: "warning"
+  description: null
