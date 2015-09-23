@@ -1,5 +1,5 @@
 # Tags used by; html, css, javascript, jekyll
-navigation:
+nav:
   tag: "nav"
   description: navigation menu
 banner:
@@ -14,7 +14,7 @@ footer:
 content:
   tag: "content"
   description: null
-information:
+info:
   tag: "information"
   description: null
 warning:
