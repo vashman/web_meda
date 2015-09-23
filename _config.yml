@@ -20,6 +20,7 @@ data_dir:     ./_data
 includes_dir: ./_includes
 collections:  null
 baseurl: /web_media
+#baseurl: .
 
 # site variables
 default_layout: css/layout/default.css

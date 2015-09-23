@@ -1,10 +1,11 @@
 <div>
 <form>
 {% for layout in site.data.layout %}
-<input type="radio" name="layout" value="{{ layout }}">
+<input type="radio" name="layout" value="{{ layout }}">{{ layout }}</input>
 {% endfor %}
+
 {% for theme in site.data.theme %}
-<input type="radio" name="theme" value="{{ theme }}">
+<input type="radio" name="theme" value="{{ theme }}">{{ theme }}</input>
 {% endfor %}
 </form>
 </div>
