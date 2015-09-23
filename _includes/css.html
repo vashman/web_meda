@@ -2,10 +2,12 @@
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/layout/default.css">
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme/default.css">
 </noscript>
+<!-- Inline javascript to keep the page from flashing. -->
 <script type="text/javascript">
 var theme = get_cookie("theme");
 var layout = get_cookie("layout");
-
+alert("theme is: " + theme);
+alert("layout is: " + layout);
 document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/theme');
   if (theme != "") {
   document.write(theme + '">');
