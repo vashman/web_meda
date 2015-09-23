@@ -1,22 +1,20 @@
 <noscript>
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/layout/default.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme/default.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_layout }}">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_theme }}">
 </noscript>
 <!-- Inline javascript to keep the page from flashing. -->
 <script type="text/javascript">
 var theme = get_cookie("theme");
 var layout = get_cookie("layout");
 
-document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/theme/');
   if (theme != "") {
-  document.write(theme + '">');
+  document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/theme/' + theme + '">');
   } else {
-  document.write('default.css">');
+  document.write('<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_theme }}">');
   }
-document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/layout/');
   if (layout != "") {
-  document.write(layout + '">');
+  document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/layout/' + layout + '">');
   } else {
-  document.write('default.css">');
+  document.write('<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_layout }}">');
   }
 </script>
