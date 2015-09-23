@@ -6,10 +6,11 @@ var ca = document.cookie.split(';');
 var cname = name + "=";
   for (var i=0; i<ca.length; ++i){
   var ch = ca[i];
-    while (c.charAt(0)==' ')
-    ch = ch.substring(1):
+    while (c.charAt(0)==' '){
+    ch = ch.substring(1);
       if (ch.indexOf(cname) == 0)
       return ch.substring(cname.length, ch.length);
+    }
   }
 return "";
 }
