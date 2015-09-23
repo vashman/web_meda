@@ -21,8 +21,11 @@ Site hosted at: {{ site.repository }}
 </p>
 
 <p>
-{{ site.data.layout[default] }}
-{{ site.data.css[nav] }}
-{{ site.data.css.nav }}
+<br/>A: {% site.data.layout[default] %}
+<br/>B: {% site.data.css[nav] %}
+<br/>C: {% site.data.css.nav %}
+<br/>D: {{ site.data.layout["default"] }}
+<br/>E: {{ site.data.css["nav"] }}
+<br/>F: {% site.data.css %}
 </p>
 </div>
