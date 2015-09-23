@@ -1,4 +1,23 @@
+code {
+  white-space: pre;
+}
+
+nav {
+  color: pink;
+}
+
+p {
+  color: lightblue;
+}
+
+h1 {
+  color: white;
+}
+
 body {
   background: black;
-  text-color: white;
+}
+
+li ul {
+  color: red;
 }
