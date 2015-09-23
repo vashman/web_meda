@@ -1,7 +1,7 @@
 # Output
-#markdown: rdiscount
+markdown: rdiscount
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: pygements
+highlighter: pygments
 relative_permalinks: false
 safe: true
 future: false
