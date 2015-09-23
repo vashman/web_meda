@@ -1,5 +1,5 @@
 # Output
-markdown: rdiscount
+#markdown: rdiscount
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
 relative_permalinks: false
@@ -19,4 +19,5 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 collections:  null
-baseurl: /web_media
+#baseurl: /web_media
+baseurl: .
