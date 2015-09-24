@@ -20,11 +20,11 @@ return false;
 <div>
 <form name="css_selector" onsubmit="return set_css();">
 {% for layout in site.data.layout %}
-<input type="radio" name="layout" value="{{ layout }}">{{ layout }}</input>
+<input type="radio" name="layout" value="{{ layout }}">{{ layout[0] }}</input>
 {% endfor %}
 
 {% for theme in site.data.theme %}
-<input type="radio" name="theme" value="{{ theme }}">{{ theme }}</input>
+<input type="radio" name="theme" value="{{ theme }}">{{ theme[0] }}</input>
 {% endfor %}
 <input type="submit" value="submit" />
 </form>

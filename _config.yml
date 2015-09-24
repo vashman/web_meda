@@ -6,7 +6,7 @@ relative_permalinks: false
 safe: true
 future: false
 sass:
-#  style: compressed
+  style: compressed
   sass_dir: _sass
 
 repository: https://vashman.github.io/web_media
@@ -18,9 +18,8 @@ plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
+baseurl: /web_media
 collections:  null
-#baseurl: /web_media
-baseurl: .
 
 # site variables
 default_layout: css/layout/vintage.css
