@@ -23,5 +23,6 @@ baseurl: /web_media
 #baseurl: .
 
 # site variables
-default_layout: css/layout/default.css
-default_theme: css/theme/default.css
+default_layout: css/layout/vintage.css
+default_theme: css/theme/vintage.css
+
