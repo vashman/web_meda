@@ -1,14 +1,24 @@
 <script>
 function
 set_css(){
-alert('sumbit');
-
+var layouts = document.getElementsByName("layout");
+var themes = document.getElementsByName("theme");
+for (var i = layouts.length; i > 0 ; --i){
+  if (layouts[i].checked == true){
+  set_cookie("layout", layouts[i].value, (99*24*60*1000));
+  }
+}
+for (var i = themes.length; i > 0 ; --i){
+  if (themes[i].checked == true){
+  set_cookie("theme", themes[i].value, (99*24*60*1000));
+  }
+}
 return false;
 }
 </script>
 
 <div>
-<form onsubmit="return set_css();">
+<form name="css_selector" onsubmit="return set_css();">
 {% for layout in site.data.layout %}
 <input type="radio" name="layout" value="{{ layout }}">{{ layout }}</input>
 {% endfor %}
@@ -16,6 +26,6 @@ return false;
 {% for theme in site.data.theme %}
 <input type="radio" name="theme" value="{{ theme }}">{{ theme }}</input>
 {% endfor %}
-<input type="submit" value="submit">
+<input type="submit" value="submit" />
 </form>
 </div>
