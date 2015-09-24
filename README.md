@@ -64,7 +64,7 @@ Landing
 --------------------------------------------------------------------------
 The Landing page is used to display information about the user and provide
 information about how to use the web site.
-```
+```html
 <banner: container>
 <about: link>
 <basic browser information: form>
