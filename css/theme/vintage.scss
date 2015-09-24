@@ -7,14 +7,7 @@ background:#707070;
 
 /* Navigation */
 nav{
-}
-ul.nav{
-list-style:none;
-}
-li.nav{
-}
-
-a.nav{
+a{
 text-align:left;
 font-family: "League-Gothic", Courier;
 text-transform: uppercase;
@@ -22,27 +15,24 @@ color: #707070;
 text-shadow: 1px 1px 0px #eee, 1px 1px 0px #707070;
 }
 
-a.nav:visited{
+a:visited{
 text-align:left;
 font-family: "League-Gothic", Courier;
 text-transform: lowercase;
 color: #707070;
 text-shadow: 1px 2px 1px #eee, 2px 2px 3px #707070;
 }
-a.nav:hover{
+a:hover{
 text-align: center;
 font-family: "League-Gothic", Courier;
 text-transform: uppercase;
 color: #707070;
 text-shadow: 1px 2px 1px #eee, 2px 2px 5px #707070;
 }
-div.nav{
-align:left;
-position: fixed;
-margin:0px;
-width:12%;
-float:left;
-clear:left;
+}
+
+ul{
+list-style:none;
 }
 
 /* Header */
@@ -58,29 +48,6 @@ text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
 
 h1.header{
 }
-div.header{
-background:#707070;
-size:auto;
-align:top-right;
-overflow:auto;
-}
-div.header:after{
-content: "";
-display: block;
-position: absolute;
-top: 0%;
-left: 85%;
-width:200px;
-height:125px;
-background: linear-gradient(0deg, rgba(255, 255, 0, 0.15)60%, rgba(255, 136, 0, 0.2)80%);
-background: -moz-linear-gradient(0deg, rgba(255, 255, 0, 0.15)60%, rgba(255, 136, 0, 0.2)80%);
-background: -webkit-linear-gradient(0deg, rgba(255, 255, 0, 0.15)60%, rgba(255, 136, 0, 0.2)80%);
-background: -o-linear-gradient(0deg, rgba(255, 255, 0, 0.15)60%, rgba(255, 136, 0, 0.2)80%);
-box-shadow: inset -5px -3px 15px 0 #C28304, inset 0px 0px 0px 500px rgba(255, 255, 255, 0.1), 0 5px 10px rgba(0,0,0,0.5);
--moz-box-shadow: inset -5px -3px 15px 0 #C28304, inset 0px 0px 0px 500px rgba(255, 255, 255, 0.1), 0 5px 10px rgba(0,0,0,0.5);
--webkit-box-shadow: inset -5px -3px 15px 0 #C28304, inset 0px 0px 0px 500px rgba(255, 255, 255, 0.1), 0 5px 10px rgba(0,0,0,0.5);
--o-box-shadow: inset -5px -3px 15px 0 #C28304, inset 0px 0px 0px 500px rgba(255, 255, 255, 0.1), 0 5px 10px rgba(0,0,0,0.5);
-}
 
 img.header{
 align:right;
@@ -92,24 +59,13 @@ width:200px;
 height:125px;
 }
 
-/* Footer */
-.footer{}
-p.footer{
-text-shadow: 1px 1px 0px #eee, 7px 7px 0px #707070;
-color:grey;
-}
-div.footer{
-margin-left:20%;
-}
-
 /* ** Content ** */
 /* General */
-.content{}
-p.content{
+p{
 font-family: "League-Gothic", Courier;
 color:#2E2A30;
 }
-h1, h2, h3, h4, h5, h6, h7.content{
+h1, h2, h3, h4, h5, h6, h7 {
 text-align: center;
 margin: 75px auto;
 font-family: "League-Gothic", Courier;
@@ -117,10 +73,10 @@ font-size: 20px; text-transform: uppercase;
 color: #707070;
 text-shadow: 2px 2px 0px #eee, 5px 5px 0px #707070;
 }
-a.content{
+a{
 color:yellow;
 }
-div.content{
+div{
 border-radius:25px;
 border-color:black;
 margin-left:150px;
@@ -156,40 +112,4 @@ td{
 font-family: "League-Gothic", Courier;
 color:#2E2A30;
 }
-}
-
-/* Important */
-.important{}
-p.important{
-text-align: left;
-margin: 200px auto;
-font-family: "League-Gothic", Courier;
-font-size: 75px; text-transform: uppercase;
-color: red;
-text-shadow: 1px 1px 0px #eee, 2px 2px 0px red;
-}
-a.imprtant{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
-div.important{
-margin-left:12%;
-}
-
-/* Notification */
-.notification{}
-p.notification{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
-a.notification{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
-h1, h2, h3, h4.notification{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
-div.notification{
-margin-left:12%;
 }
