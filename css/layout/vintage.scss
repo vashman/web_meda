@@ -2,27 +2,58 @@
 ---
 
 /* Vintage layout */
-nav {
+code {
+  white-space: pre;
+}
+
+/* Navigation */
+nav{
+a{
+text-align:left;
+}
+
+a:visited{
+text-align:left;;
+}
+a:hover{
+text-align: center;
+}
 
 div {
-  align:left;
-  position: fixed;
-  margin:0px;
-  width:12%;
-  float:left;
-  clear:left;
-} /* nav.div */
-
-ul {
-
-a {
-  text-align:left;
-} /* a */ } /* ul */ } /* nav */
-
-ul.nav a:visited {
-  text-align:left;
+align:left;
+position: fixed;
+margin:0px;
+width:12%;
+float:left;
+clear:left;
 }
 
-ul.nav a:hover {
-  text-align: center;
+} /* nav */
+
+main {
+
+h1, h2, h3, h4, h5, h6, h7 {
+text-align: center;
+margin: 75px auto;
 }
+
+div{
+margin-left:150px;
+}
+
+img {
+align:center;
+}
+
+} /* main */
+
+form{
+margin-left:12%;
+
+
+input{
+padding:10px 20px !important;
+font-size:14px !important;
+}
+
+} /* form */

@@ -44,6 +44,7 @@ Web Site Map
                    +-----> Media Pages |  
                          +-------------+  
 ```
+
 Figure 1.0: Site Relation diagram
 
 The diagram illustrates the major pages and the navigation routes between
@@ -63,7 +64,6 @@ Landing
 --------------------------------------------------------------------------
 The Landing page is used to display information about the user and provide
 information about how to use the web site.
-
 ```
 <banner: container>
 <about: link>
@@ -75,7 +75,6 @@ About
 --------------------------------------------------------------------------
 The about page is used to display legal, author and information not
 pertaining to the site itself.
-
 ```
 <banner: container>
 <landing: link>
@@ -87,7 +86,6 @@ Home
 --------------------------------------------------------------------------
 The home page is used to display the various different topics on the site
 The page also is the main point of navigation for the site.
-
 ```
 <header: container>
 <site menu: container>
@@ -98,7 +96,6 @@ The page also is the main point of navigation for the site.
 Analytics
 --------------------------------------------------------------------------
 This page is used to display live data that is collected by the client.
-
 ```
 <header: container>
 <data: container>
@@ -110,7 +107,6 @@ Media
 --------------------------------------------------------------------------
 These pages are used to display and demonstrate individual media types /
 content.
-
 ```
 <header: container>
 <media information: paragraph>

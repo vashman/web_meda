@@ -1,12 +1,12 @@
 # Output
-#markdown: rdiscount
+#markdown: redcarpet
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
 relative_permalinks: false
 safe: true
 future: false
 sass:
-  style: compressed
+#  style: compressed
   sass_dir: _sass
 
 repository: https://vashman.github.io/web_media
@@ -19,10 +19,9 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 collections:  null
-baseurl: /web_media
-#baseurl: .
+#baseurl: /web_media
+baseurl: .
 
 # site variables
 default_layout: css/layout/vintage.css
 default_theme: css/theme/vintage.css
-

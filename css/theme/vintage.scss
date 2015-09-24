@@ -8,7 +8,6 @@ background:#707070;
 /* Navigation */
 nav{
 a{
-text-align:left;
 font-family: "League-Gothic", Courier;
 text-transform: uppercase;
 color: #707070;
@@ -16,27 +15,16 @@ text-shadow: 1px 1px 0px #eee, 1px 1px 0px #707070;
 }
 
 a:visited{
-text-align:left;
 font-family: "League-Gothic", Courier;
 text-transform: lowercase;
 color: #707070;
 text-shadow: 1px 2px 1px #eee, 2px 2px 3px #707070;
 }
 a:hover{
-text-align: center;
 font-family: "League-Gothic", Courier;
 text-transform: uppercase;
 color: #707070;
 text-shadow: 1px 2px 1px #eee, 2px 2px 5px #707070;
-}
-
-div {
-align:left;
-position: fixed;
-margin:0px;
-width:12%;
-float:left;
-clear:left;
 }
 
 ul{
@@ -51,7 +39,6 @@ color:#2E2A30;
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
-text-align: center;
 margin: 75px auto;
 font-family: "League-Gothic", Courier;
 font-size: 20px; text-transform: uppercase;
@@ -64,7 +51,6 @@ color:yellow;
 div{
 border-radius:25px;
 border-color:black;
-margin-left:150px;
 }
 img {
 align:center;
@@ -93,11 +79,6 @@ width:200px;
 height:125px;
 }
 
-/* ** Content ** */
-/* General */
-
-
-/* Form */
 form{
 margin-left:12%;
 
@@ -124,4 +105,4 @@ td{
 font-family: "League-Gothic", Courier;
 color:#2E2A30;
 }
-}
+} /* form */

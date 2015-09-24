@@ -3,8 +3,8 @@ layout: main
 title: Web-Media
 ---
 
-Recent Posts
+Recent Messages
 ========================================
 {% for post in site.posts limit:12 %}
-* {{ post }}
+* [{{ post.title }}]({{site.baseurl}}/{{post.url}})
 {% endfor %}
