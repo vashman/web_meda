@@ -18,15 +18,18 @@ return false;
 }
 </script>
 
-<div>
+
 <form name="css_selector" onsubmit="return set_css();">
+<fieldset><legend>Layout</legend>
 {% for layout in site.data.layout %}
 <input type="radio" name="layout" value="{{ layout[1] }}">{{ layout[0] }}</input><br />
 {% endfor %}
+</fieldset>
 
+<fieldset><legend>Theme</legend>
 {% for theme in site.data.theme %}
 <input type="radio" name="theme" value="{{ theme[1] }}">{{ theme[0] }}</input><br />
 {% endfor %}
+</fieldset>
 <input type="submit" value="submit" />
 </form>
-</div>
