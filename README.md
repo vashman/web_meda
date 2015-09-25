@@ -75,7 +75,7 @@ About
 --------------------------------------------------------------------------
 The about page is used to display legal, author and information not
 pertaining to the site itself.
-```
+```html
 <banner: container>
 <landing: link>
 <information: paragraph>
@@ -86,7 +86,7 @@ Home
 --------------------------------------------------------------------------
 The home page is used to display the various different topics on the site
 The page also is the main point of navigation for the site.
-```
+```html
 <header: container>
 <site menu: container>
 <media menu: container>
@@ -96,7 +96,7 @@ The page also is the main point of navigation for the site.
 Analytics
 --------------------------------------------------------------------------
 This page is used to display live data that is collected by the client.
-```
+```html
 <header: container>
 <data: container>
 <appendix: container>
@@ -107,7 +107,7 @@ Media
 --------------------------------------------------------------------------
 These pages are used to display and demonstrate individual media types /
 content.
-```
+```html
 <header: container>
 <media information: paragraph>
 <media: container>
@@ -129,14 +129,14 @@ Header
 
 Footer
 --------------------------------------------------------------------------
-```
+```html
 <copyright><author info>
 <legal disclaimer>
 ```
 
 Media
 --------------------------------------------------------------------------
-```
+```html
 <media title>
 <media description>
 <media container>
@@ -146,7 +146,7 @@ Media
 
 Appendix
 --------------------------------------------------------------------------
-```
+```html
 <term list container>
   <term><description>
 <end term list container>
@@ -154,7 +154,7 @@ Appendix
 
 Data
 --------------------------------------------------------------------------
-```
+```html
 <data title>
 <data description>
 <data formatter>
@@ -164,7 +164,7 @@ Data
 
 Site Menu
 --------------------------------------------------------------------------
-```
+```html
 <menu container>
   <menu>
 <menu container end>
@@ -172,7 +172,7 @@ Site Menu
 
 Media Menu
 --------------------------------------------------------------------------
-```
+```html
 <menu container>
   <menu>
 <menu container end>
