@@ -1,3 +1,4 @@
+<!-- Javascript form allow the user to set a css file using the browsers cookie. -->
 <script>
 function
 set_css(){
@@ -20,11 +21,11 @@ return false;
 <div>
 <form name="css_selector" onsubmit="return set_css();">
 {% for layout in site.data.layout %}
-<input type="radio" name="layout" value="{{ layout }}">{{ layout[0] }}</input>
+<input type="radio" name="layout" value="{{ layout[1] }}">{{ layout[0] }}</input><br />
 {% endfor %}
 
 {% for theme in site.data.theme %}
-<input type="radio" name="theme" value="{{ theme }}">{{ theme[0] }}</input>
+<input type="radio" name="theme" value="{{ theme[1] }}">{{ theme[0] }}</input><br />
 {% endfor %}
 <input type="submit" value="submit" />
 </form>
