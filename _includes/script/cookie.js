@@ -1,4 +1,7 @@
 <script type="text/javascript">
+/* cookie.js
+Cookie managment functions.
+*/
 
 function
 get_cookie (name) {
@@ -19,7 +22,7 @@ function
 set_cookie (name, value, expires) {
 var date = new Date();
 date.setTime(date.getTime() + expires);
-documnet.cookie = name + "=" + value
+document.cookie = name + "=" + value
 + "; expires=" + date.toGMTString();
 }
 
@@ -31,5 +34,4 @@ var value = get_cookie(name);
 document.cookie = name + "=" + value
 + "; expires=" + expires.toGMTString();
 }
-
 </script>
