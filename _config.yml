@@ -19,8 +19,22 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 baseurl: /web_media
-collections:  null
+collections:
+  media_post:
+    output: true
 
 # site variables
 default_layout: css/layout/vintage.css
 default_theme: css/theme/vintage.css
+
+defaults:
+  - scope:
+      path: ""
+      type: "media_post"
+    values:
+      layout: media
+
+# Local build variables
+# Root paths relative to differnt sub-directories
+post_root_url: ../../
+media_root_url: ../

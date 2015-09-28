@@ -5,8 +5,29 @@
 
 <main>
 {{ content }}
+
+{% for media in page.media %}
+<div>
+<h1>{{ media[1].title }}</h1>
+{% assign url = media[0] %}
+{% include {{ url }} %}
+<p>{{ media[1].description }}</p>
+<code>
+	{% capture code_include %}
+	{% include {{ url }} %}
+	{% endcapture %}
+{{ code_include | xml_escape }}
+</code>
+</div>
+{% endfor %}
 </main>
 
+<h3> Tags </h3>
+<ul>
+{% for tag in page.tags %}
+<li>{{ tag }}</li>
+{% endfor %}
+</ul>
 {% include footer.html %}
 </body>
 </html> 

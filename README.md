@@ -64,6 +64,7 @@ Landing
 --------------------------------------------------------------------------
 The Landing page is used to display information about the user and provide
 information about how to use the web site.
+
 ```html
 <banner: container>
 <about: link>
@@ -75,6 +76,7 @@ About
 --------------------------------------------------------------------------
 The about page is used to display legal, author and information not
 pertaining to the site itself.
+
 ```html
 <banner: container>
 <landing: link>
@@ -86,6 +88,7 @@ Home
 --------------------------------------------------------------------------
 The home page is used to display the various different topics on the site
 The page also is the main point of navigation for the site.
+
 ```html
 <header: container>
 <site menu: container>
@@ -96,6 +99,7 @@ The page also is the main point of navigation for the site.
 Analytics
 --------------------------------------------------------------------------
 This page is used to display live data that is collected by the client.
+
 ```html
 <header: container>
 <data: container>
@@ -107,6 +111,7 @@ Media
 --------------------------------------------------------------------------
 These pages are used to display and demonstrate individual media types /
 content.
+
 ```html
 <header: container>
 <media information: paragraph>
