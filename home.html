@@ -1,0 +1,17 @@
+---
+layout: main
+title: Web-Media
+---
+
+<div>
+{% for media in site.media %}
+<a href="{{site.baseurl}}/{{media.url}}">{{ media.title }}</a>
+{% endfor %}
+</div>
+
+<div>
+<h1>Recent Messages</h1>
+{% for post in site.posts limit:12 %}
+<a href="{{site.baseurl}}/{{post.url}}">{{ site.title }}</a>
+{% endfor %}
+<div>
