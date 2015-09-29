@@ -6,11 +6,15 @@ nav {
   color: pink;
 }
 
+a {
+  color: pink;
+}
+
 p {
   color: lightblue;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   color: white;
 }
 

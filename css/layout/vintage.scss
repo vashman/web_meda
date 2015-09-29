@@ -8,29 +8,31 @@ code {
 
 /* Navigation */
 nav{
-a{
-text-align:left;
-}
-
-a:visited{
-text-align:left;;
-}
-a:hover{
-text-align: center;
-}
-
-div {
 align:left;
 position: fixed;
 margin:0px;
 width:12%;
 float:left;
 clear:left;
+
+a{
+text-align:left;
 }
+
+a:visited{
+text-align:left;
+}
+
+a:hover{
+text-align: center;
+}
+
+div {}
 
 } /* nav */
 
 main {
+margin-left:150px;
 
 h1, h2, h3, h4, h5, h6, h7 {
 text-align: center;
@@ -38,7 +40,6 @@ margin: 75px auto;
 }
 
 div{
-margin-left:150px;
 }
 
 img {

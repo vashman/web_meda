@@ -1,0 +1,18 @@
+---
+---
+/* Vintage layout */
+code {
+  white-space: pre;
+}
+
+nav {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 2%;
+margin-left: 2%;
+
+a {
+text-align: center;
+}
+
+}
