@@ -19,7 +19,9 @@ return false;
 }
 </script>
 
-
+<noscript>
+<p>Cannot select css files without javascript.</p>
+</noscript> <script>
 <form name="css_selector" onsubmit="return set_css();">
 <fieldset><legend>Layout</legend>
 {% for layout in site.data.layout %}
@@ -34,3 +36,4 @@ return false;
 </fieldset>
 <input type="submit" value="submit" />
 </form>
+</script>

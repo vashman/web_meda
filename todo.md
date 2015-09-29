@@ -5,7 +5,7 @@ layout: main
 
 To-Do list
 ========================================
-* [x] *Have css selector auto load page.*
+* [x] Have css selector auto load page.
 * [] Show media posts on home page.
 * [] Add banner
 * [] *Add site logo*
