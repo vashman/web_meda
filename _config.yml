@@ -20,7 +20,7 @@ data_dir:     ./_data
 includes_dir: ./_includes
 baseurl: /web_media
 collections:
-  media_post:
+  media:
     output: true
 
 # site variables
@@ -30,7 +30,7 @@ default_theme: css/theme/vintage.css
 defaults:
   - scope:
       path: ""
-      type: "media_post"
+      type: "media"
     values:
       layout: media
 
