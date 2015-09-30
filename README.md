@@ -125,22 +125,19 @@ Section Layout
 The sections consist of web site parts or templates used in the above
 skeleton.
 
-Header
---------------------------------------------------------------------------
+## Header
 ```html
 <banner>
 <menu>
 ```
 
-Footer
---------------------------------------------------------------------------
+## Footer
 ```html
 <copyright><author info>
 <legal disclaimer>
 ```
 
-Media
---------------------------------------------------------------------------
+## Media
 ```html
 <media title>
 <media description>
@@ -149,16 +146,14 @@ Media
 <end media container>
 ```
 
-Appendix
---------------------------------------------------------------------------
+## Appendix
 ```html
 <term list container>
   <term><description>
 <end term list container>
 ```
 
-Data
---------------------------------------------------------------------------
+## Data
 ```html
 <data title>
 <data description>
@@ -167,16 +162,14 @@ Data
 <data formatter end>
 ```
 
-Site Menu
---------------------------------------------------------------------------
+## Site Menu
 ```html
 <menu container>
   <menu>
 <menu container end>
 ```
 
-Media Menu
---------------------------------------------------------------------------
+## Media Menu
 ```html
 <menu container>
   <menu>
