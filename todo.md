@@ -10,6 +10,7 @@ To-Do list
 * [] *Add banner*
 * [] *Add site logo*
 * [] *Put css in linked js file.*
+* [] fix vintage menu's max width
 
 # Browser information
 * [] Add user agent
