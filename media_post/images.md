@@ -24,13 +24,11 @@ Image Types
 
 bmp
 --------------------------------------------------------------------------
----
-File Extenstion: .bmp .dib
-Internet Media Type: image/bmp, image/x-bmp 
-Type of Format: Raster graphics
-Color:
-Transparancy:
----
+* File Extenstion: .bmp .dib
+* Internet Media Type: image/bmp, image/x-bmp 
+* Type of Format: Raster graphics
+* Color:
+* Transparancy:
 
 The bmp file type was created as a way to share files accross differnt
 devices. The format is well documented and patent free, which can make it
@@ -40,13 +38,11 @@ since the image will be dependent on the pixel values themself.
 
 png
 --------------------------------------------------------------------------
----
-File Extenstion: .png
-Internet Media Type: image/png
-Type of Format: Lossless bitmap
-Color: Palettes of 24-bit RGB, non-plaette 32-bit RGBA, Greyscale
-Transparancy: Alpha Channel
----
+* File Extenstion: .png
+* Internet Media Type: image/png
+* Type of Format: Lossless bitmap
+* Color: Palettes of 24-bit RGB, non-plaette 32-bit RGBA, Greyscale
+* Transparancy: Alpha Channel
 
 The format was created as a improved gif format for transfering files on
 the internet. This format supports a larger color range than gif, up to
@@ -55,13 +51,11 @@ therefore the images may still be quite large.
 
 jpg
 --------------------------------------------------------------------------
----
-File Extenstion: .jpg, .jpeg, .jpe .jif, .jfif, .jfi
-Internet Media Type: image/jpeg 
-Type of Format: Lossy image format
-Color:
-Transparancy: Not supported
----
+* File Extenstion: .jpg, .jpeg, .jpe .jif, .jfif, .jfi
+* Internet Media Type: image/jpeg 
+* Type of Format: Lossy image format
+* Color:
+* Transparancy: Not supported
 
 The format uses a lossy compression algorithm to shrink the file size. The
 compression and format and desgined to remove image data not seen by the
@@ -72,13 +66,11 @@ used and is a web standard.
 
 gif
 --------------------------------------------------------------------------
----
-File Extenstion: .gif 
-Internet Media Type: image/gif
-Type of Format: Lossless bitmap
-Color: 8-bit
-Transparancy: 
----
+* File Extenstion: .gif 
+* Internet Media Type: image/gif
+* Type of Format: Lossless bitmap
+* Color: 8-bit
+* Transparancy: 
 
 The format supports 256 colors using 8-bit values. The format also
 intrinsically supports animated images. When using animation each frame
