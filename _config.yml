@@ -22,6 +22,8 @@ baseurl: /web_media
 collections:
   media_post:
     output: true
+  info_post:
+    output: true
 
 # site variables
 default_layout: css/layout/vintage.css
