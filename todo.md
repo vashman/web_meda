@@ -25,3 +25,19 @@ To-Do list
 # Information
 * [x] Add information collection
 * [] Add information Layout
+
+# Add images
+* [] Add refrence page
+* [] Add images to refrences to page + links
+* [] Add background image  to divs
+* [] Add background image to code blocks.
+* [] Add tag background images
+
+# Spliced image
+* [] Splice basic website page
+* [] Links sliced image to w3 section pages.
+
+# Poster
+* [] Create poster
+* [] Insert poster
+* [] Fake image collaguge
