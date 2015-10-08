@@ -5,11 +5,16 @@ title: Web-Media
 
 <div>
 <h1> Media </h1>
-	{{ site.collections.media_post }}
 {% for media in site.media_post %}
 <a href="{{site.baseurl}}/{{media.url}}">{{ media.title }}</a>
 {% endfor %}
-<a href="{{site.baseurl}}/media_post/images.html">Image Formats</a>
+</div>
+
+<div>
+<h1>Information</h1>
+{% for info in site.info_post %}
+<a href="{{site.baseurl}}/{{info.url}}">{{ info.title }}</a>
+{% endfor %}
 </div>
 
 <div>
