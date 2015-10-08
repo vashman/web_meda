@@ -3,6 +3,7 @@ layout: media
 title: Faked Image
 tags:
   - image
+  - modified image
 media:
   media/orginal.html:
     title: Orginal Image

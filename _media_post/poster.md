@@ -1,6 +1,6 @@
 ---
 layout: media
-title: image types
+title: poster
 tags:
   - image
   - file format
