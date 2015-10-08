@@ -28,8 +28,8 @@ To-Do list
 * [] Add information Layout
 
 # Add images
-* [] Add refrence page
-* [] Add images to refrences to page + links
+* [x] Add refrence page
+* [x] Add images to refrences to page + links
 * [] Add background image  to divs
 * [] Add background image to code blocks.
 * [] Add tag background images
