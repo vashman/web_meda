@@ -8,6 +8,7 @@ To-Do list
 * [x] Have css selector auto load page.
 * [] Show media posts on home page.
 * [] *Put css in linked js file.*
+* [] Update html to use new version 5 tags.
 
 # Browser information
 * [] Add user agent
@@ -34,8 +35,8 @@ To-Do list
 * [] Add tag background images
 
 # Spliced image
-* [] Splice basic website page
-* [] Links sliced image to w3 section pages.
+* [x] Splice basic website page
+* [x] Links sliced image to w3 section pages.
 
 # Poster
 * [] Create poster
