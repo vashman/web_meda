@@ -1,16 +1,18 @@
 ---
 layout: media
-title: Faked Image
+title: faked image
 tags:
   - image
-  - modified image
+  - modifed image
 media:
   media/orginal.html:
     title: Orginal Image
-    description: Orginal imaged used to create fake image.
-  media/faked.html
+    description: Orginal image used to create fake image.
+  media/faked.html:
     title: Faked Image
-    description: Modified image with fake additions, meant to look real.
+    description: Modifed image with fake additions, meant to look real.
 ---
 
-# Fakeing an Image
+Faking an image
+==========================================================================
+
