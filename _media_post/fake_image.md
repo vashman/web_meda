@@ -1,6 +1,6 @@
 ---
 layout: media
-title: faked image
+title: Faked Image
 tags:
   - image
 media:
@@ -11,4 +11,5 @@ media:
     title: Faked Image
     description: Modified image with fake additions, meant to look real.
 ---
+
 # Fakeing an Image
