@@ -3,29 +3,26 @@ layout: main
 title: Web-Media
 ---
 
-<div>
-<header> Media </header>
+<section><header>Media</header>
 <nav>
 {% for media in site.media_post %}
 <a href="{{site.baseurl}}/{{media.url}}">{{ media.title }}</a>
 {% endfor %}
 </nav>
-</div>
+</section>
 
-<div>
-<header>Information</header>
+<section><header>Information</header>
 <nav>
 {% for info in site.info_post %}
 <a href="{{site.baseurl}}/{{info.url}}">{{ info.title }}</a>
 {% endfor %}
 <nav>
-</div>
+</section>
 
-<div>
-<header>Recent Messages</header>
+<section><header>Recent Messages</header>
 <nav>
 {% for post in site.posts limit:12 %}
 <a href="{{site.baseurl}}/{{post.url}}">{{ post.title }} &#9888;</a>
 {% endfor %}
 </nav>
-<div>
+</section>
