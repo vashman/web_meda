@@ -4,22 +4,28 @@ title: Web-Media
 ---
 
 <div>
-<h1> Media </h1>
+<header> Media </header>
+<nav>
 {% for media in site.media_post %}
 <a href="{{site.baseurl}}/{{media.url}}">{{ media.title }}</a>
 {% endfor %}
+</nav>
 </div>
 
 <div>
-<h1>Information</h1>
+<header>Information</header>
+<nav>
 {% for info in site.info_post %}
 <a href="{{site.baseurl}}/{{info.url}}">{{ info.title }}</a>
 {% endfor %}
+<nav>
 </div>
 
 <div>
-<h1>Recent Messages</h1>
+<header>Recent Messages</header>
+<nav>
 {% for post in site.posts limit:12 %}
-<a href="{{site.baseurl}}/{{post.url}}">{{ post.title }}</a>
+<a href="{{site.baseurl}}/{{post.url}}">{{ post.title }} &#9888;</a>
 {% endfor %}
+</nav>
 <div>

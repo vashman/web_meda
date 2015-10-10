@@ -1,23 +1,21 @@
 ---
-layout: default
+layout: main
 title: Web Media
 ---
 
 <h1> Web Media Demostration </h1>
 
-<h2> Browser Information </h2>
-<div class="{{ site.data.css.class.info.tag }}">
-<p>
-Javascript: <script type="text/javascript"> document.write("Enabled")</script> <noscript>Disabled</noscript>
-</p>
-</div>
+<section><header><h1>Browser Information </h1></header>
+<p>Javascript: <script type="text/javascript"> document.write("Enabled")</script> <noscript>Disabled</noscript></p>
+<noscript><p>Java script is required to show some data.</p><noscript>
+<script>
+var useragent = "<p>" + navigator.userAgent + "<p>";
+document.write(useragent);
+</script>
+</section>
 
-<h2> Site Information </h2>
-<div class="{{ site.data.css.class.info.tag }}">
-<p>
-Site build on: {{ site.time }}
-</p><p>
-Site hosted at: {{ site.repository }}
-</p>
+<section><header><h1>Site Information</h1></header>
+<p>Site build on: {{ site.time }}</p>
+<p>Site hosted at: {{ site.repository }}</p>
+</section>
 
-</div>

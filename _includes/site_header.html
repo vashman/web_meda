@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <title>{{ site.name }}</title>
 <meta name="description" content="{{ site.description }}">
-{% include script/cookie.js %}
+<!-- Run the cookie scripts async in case they are nee-->
+<script src="{{ site.baseurl }}/script/cookie.js" async>
 {% include css.html %}
 </head>
 

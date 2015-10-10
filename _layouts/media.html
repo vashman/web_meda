@@ -1,33 +1,35 @@
 {% include site_header.html %}
 
 <body>
-{% include header.html %}
+{% include banner.html %}
+{% include site_menu.html %}
 
 <main>
+<section>
 {{ content }}
 
 {% for media in page.media %}
-<div>
-<h1>{{ media[1].title }}</h1>
-{% assign url = media[0] %}
-{% include {{ url }} %}
-<p>{{ media[1].description }}</p>
-<code>
-	{% capture code_include %}
-	{% include {{ url }} %}
-	{% endcapture %}
-{{ code_include | xml_escape }}
-</code>
-</div>
+  <article>
+    <header>
+    <h1>{{ media[1].title }}</h1>
+    </header>
+  {% assign url = media[0] %}
+  {% include {{ url }} %}
+  <p>{{ media[1].description }}</p>
+    <code>
+	  {% capture code_include %}
+	  {% include {{ url }} %}
+	  {% endcapture %}
+    {{ code_include | xml_escape }}
+    </code>
+  </article>
 {% endfor %}
+</section>
 </main>
 
-<h3> Tags </h3>
-<ul>
-{% for tag in page.tags %}
-<li>{{ tag }}</li>
-{% endfor %}
-</ul>
+<section><header><h3> Tags </h3></header>
+<ul>{% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+
 {% include footer.html %}
 </body>
 </html> 

@@ -1,13 +1,20 @@
 {% include site_header.html %}
 
 <body>
-{% include header.html %}
+{% include banner.html %}
+{% include site_menu.html %}
 
 <main>
-<div>
-	<h1>Title: {{page.title}}</h1>
-{{ content }}
-</div>
+  <section>
+  <header><h1>Title: {{page.title}}</h1></header>
+    <article>
+    {{ content }}
+    <article>
+  </section>
+
+<section>
+<header><h1>Tags</h1></header>
+</section>
 </main>
 
 {% include footer.html %}

@@ -1,11 +1,14 @@
+
 <noscript>
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_layout }}">
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ site.default_theme }}">
 </noscript>
 <!-- Inline javascript to keep the page from flashing. -->
-<script type="text/javascript">
+<script>
 var theme = get_cookie("theme");
 var layout = get_cookie("layout");
+alert("layout" + layout);
+alert("theme" + theme);
 
   if (theme != "") {
   document.write('<link rel="stylesheet type="text/css" href="{{ site.baseurl }}/css/theme/' + theme + '">');
