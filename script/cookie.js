@@ -1,4 +1,3 @@
-<script type="text/javascript">
 /* cookie.js
 Cookie managment functions.
 */
@@ -34,4 +33,3 @@ var value = get_cookie(name);
 document.cookie = name + "=" + value
 + "; expires=" + expires.toGMTString();
 }
-</script>
