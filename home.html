@@ -3,7 +3,10 @@ layout: main
 title: Web-Media
 ---
 
-<section><header>Media</header>
+<section>
+  <header>
+  <h1>Media</h1>
+  </header>
 <nav>
 {% for media in site.media_post %}
 <a href="{{site.baseurl}}/{{media.url}}">{{ media.title }}</a>
@@ -11,15 +14,21 @@ title: Web-Media
 </nav>
 </section>
 
-<section><header>Information</header>
+<section>
+  <header>
+  <h1>Information</h1>
+  </header>
 <nav>
 {% for info in site.info_post %}
 <a href="{{site.baseurl}}/{{info.url}}">{{ info.title }}</a>
 {% endfor %}
-<nav>
+</nav>
 </section>
 
-<section><header>Recent Messages</header>
+<section>
+  <header>
+  <h1>Recent Messages</h1>
+  </header>
 <nav>
 {% for post in site.posts limit:12 %}
 <a href="{{site.baseurl}}/{{post.url}}">{{ post.title }} &#9888;</a>
