@@ -2,14 +2,18 @@
 
 <body>
 {% include banner.html %}
+<header>
 {% include site_menu.html %}
+</header>
 
 <nav>
 <a href="{{ site.baseurl }}/">Browser Information</a>
 </nav>
 
 <main>
-{{ content }}
+  <section><article>
+  {{ content }}
+  </article><section>
 </main>
 
 {% include footer.html %}
