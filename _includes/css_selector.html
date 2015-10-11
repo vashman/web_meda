@@ -6,11 +6,13 @@ var layouts = document.getElementsByName("layout");
 var themes = document.getElementsByName("theme");
 for (var i = --layouts.length; i >= 0 ; --i){
   if (layouts[i].checked == true){
+  alert("layout: " + layouts[i].value);
   set_cookie("layout", layouts[i].value, (99*24*60*1000));
   }
 }
 for (var i = (--themes.length); i >= 0 ; --i){
   if (themes[i].checked == true){
+  alert("theme: " + themes[i].value);
   set_cookie("theme", themes[i].value, (99*24*60*1000));
   }
 }
