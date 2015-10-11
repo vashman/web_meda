@@ -6,67 +6,71 @@ background:#707070;
 }
 
 /* Navigation */
-nav{
-a{
-font-family: "League-Gothic", Courier;
-text-transform: uppercase;
-color: #707070;
-text-shadow: 1px 1px 0px #eee, 1px 1px 0px #707070;
-}
+nav {
+  a {
+  font-family: "League-Gothic", Courier;
+  text-transform: uppercase;
+  color: #707070;
+  text-shadow: 1px 1px 0px #eee, 1px 1px 0px #707070;
+  }
 
-a:visited{
-font-family: "League-Gothic", Courier;
-text-transform: lowercase;
-color: #707070;
-text-shadow: 1px 2px 1px #eee, 2px 2px 3px #707070;
-}
-a:hover{
-font-family: "League-Gothic", Courier;
-text-transform: uppercase;
-color: #707070;
-text-shadow: 1px 2px 1px #eee, 2px 2px 5px #707070;
-}
+  a:visited {
+  font-family: "League-Gothic", Courier;
+  text-transform: lowercase;
+  color: #707070;
+  text-shadow: 1px 2px 1px #eee, 2px 2px 3px #707070;
+  }
+  
+  a:hover {
+  font-family: "League-Gothic", Courier;
+  text-transform: uppercase;
+  color: #707070;
+  text-shadow: 1px 2px 1px #eee, 2px 2px 5px #707070;
+  }
 
-ul{
-list-style:none;
-}
+  ul {
+  list-style:none;
+  }
 } /* nav */
 
 main {
-p{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
+  p {
+  font-family: "League-Gothic", Courier;
+  //color:#2E2A30;
+  }
 
-h1, h2, h3, h4, h5, h6, h7 {
-margin: 75px auto;
-font-family: "League-Gothic", Courier;
-font-size: 20px; text-transform: uppercase;
-color: #707070;
-text-shadow: 2px 2px 0px #eee, 5px 5px 0px #707070;
-}
-a{
-color:yellow;
-}
-div{
-border-radius:25px;
-border-color:black;
-}
-img {
-align:center;
-}
+  h1, h2, h3, h4, h5, h6, h7 {
+  font-family: "League-Gothic", Courier;
+  font-size: 20px; text-transform: uppercase;
+  color: #707070;
+  text-shadow: 2px 2px 0px #eee, 5px 5px 0px #707070;
+  }
+  
+  a {
+  color:yellow;
+  }
 
+  section {
+  border-radius:25px;
+  border-color:black;
+  }
+
+  img {
+  align:center;
+  }
 } /* main */
 
-/* Header */
-.header{}
-p.header{
-text-align: center;
-margin: 200px auto;
+
+header {
 font-family: "League-Gothic", Courier;
-font-size: 200px; text-transform: uppercase;
 color: #707070;
 text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+
+  h1, h2, h3, h4, h5 {
+  border-radius:25px;
+  font-family: "League-Gothic", Courier;
+  font-size: 35px; text-transform: uppercase;
+  }
 }
 
 img.header{
@@ -79,30 +83,28 @@ width:200px;
 height:125px;
 }
 
-form{
+form {
 margin-left:12%;
 
-h1, h2, h3, h4, h5 {
-border-radius:25px;
-font-family: "League-Gothic", Courier;
-}
-p{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
-input{
-border-top:2px solid #a3ceda;
-border-left:2px solid #a3ceda;
-border-right:2px solid #4f6267;
-border-bottom:2px solid #4f6267;
-padding:10px 20px !important;
-font-size:14px !important;
-background-color:#c4f1fe;
-font-weight: bold;
-color:#2d525d;
-}
-td{
-font-family: "League-Gothic", Courier;
-color:#2E2A30;
-}
+  p {
+  font-family: "League-Gothic", Courier;
+  color:#2E2A30;
+  }
+  
+  input {
+  border-top:2px solid #a3ceda;
+  border-left:2px solid #a3ceda;
+  border-right:2px solid #4f6267;
+  border-bottom:2px solid #4f6267;
+  padding:10px 20px !important;
+  font-size:14px !important;
+  background-color:#c4f1fe;
+  font-weight: bold;
+  color:#2d525d;
+  }
+  
+  td {
+  font-family: "League-Gothic", Courier;
+  color:#2E2A30;
+  }
 } /* form */

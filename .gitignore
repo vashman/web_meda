@@ -1,5 +1,9 @@
 .zip
 
+# IDE files
+*.*~
+*.swp
+
 # generated sites
 _site
 serve
