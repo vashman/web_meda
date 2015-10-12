@@ -11,6 +11,7 @@ tags:
 * They are often created from a external source such as a; scanner, digital camera.
 
 # Resolution
+
 ## Device Resolution
 * Printers and Scanners use dots per unit length, often dots per inch (DPI).
 * Video, Monitors use pixel dimensions. The DPI depends on the physical size of the screen.
@@ -44,6 +45,7 @@ Assign codes of different lengths to the colors, so that the code for the freque
 This achieved a reduction in image size in most images.
 
 ### Dictionary-based schema
+
 #### LZ77, LZ78, LZW
 * LZW is license free and used in GIF.
 
@@ -109,6 +111,7 @@ Computationally intensive process
 * array of weights k/a convolution kernel.
 
 ### Blurring
+
 #### Classic Simple blur
 Convolution mask with equal weights.
 * which produces a unnatural effect.
@@ -118,6 +121,7 @@ Convolution mask with coefficients falling off gradually (Gaussian bell curve).
 * gentle blur where the amount of blur and the radius can be controlled.
 
 ### Sharpening
+
 #### Low frequency filter
 3x3 convolution mask coefficients are all equal to -1, except center which equals 9.
 * Produces harsh edges
@@ -126,6 +130,7 @@ Convolution mask with coefficients falling off gradually (Gaussian bell curve).
 Copy the image and  apply Gaussian blur to copy, subtract it 2 time from the original.
 
 # Geometrical Transformations
+
 ## Scaling, rotation, etc.
 * Simple operations to perform on vector graphics.
 * Requires each pixel to be transformed in bit-mapped images.
