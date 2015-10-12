@@ -1,2 +1,7 @@
+{% if site.baseurl == "./" %}
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+{% assign relative = "/" + realative %}
+{% else %}
+{% assign relative = "" %}
+{% endif %}
