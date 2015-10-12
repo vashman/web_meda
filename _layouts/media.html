@@ -29,8 +29,14 @@
 </section>
 </main>
 
-<section><header><h3> Tags </h3></header>
-<ul>{% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+<section>
+<header><h3> Tags </h3></header>
+<ul>
+  {% for tag in page.tags %}
+  <li>{{ tag }}</li>
+  {% endfor %}
+</ul>
+</seciton>
 
 {% include footer.html %}
 </body>

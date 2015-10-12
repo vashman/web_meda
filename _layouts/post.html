@@ -13,11 +13,16 @@
     {{ content }}
     <article>
   </section>
+</main>
 
 <section>
 <header><h1>Tags</h1></header>
+<ul>
+  {% for tag in page.tags %}
+  <li>{{ tag }}</li>
+  {% endfor %}
+</ul>
 </section>
-</main>
 
 {% include footer.html %}
 </body>
