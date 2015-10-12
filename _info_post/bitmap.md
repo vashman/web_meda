@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Bitmapped Image 
 tags:
   - image compression 
   - bit-mapped images
