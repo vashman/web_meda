@@ -15,7 +15,7 @@ media:
   media/original2.html:
     title: Section 2 orginals
     descrption: The orginal images used to create the modified image.
-  media/robinLake.html
+  media/robinLake.html:
     title: Robin at the Lake
     description: Image of combined layers.
   media/flawedimage.html:
@@ -31,6 +31,7 @@ media:
 
 Retouching Image Graphics
 ==========================================================================
+
 ## 1 Compositing with a layer mask
 1. Add image 
 2. Add another layer on top and add the second image.
