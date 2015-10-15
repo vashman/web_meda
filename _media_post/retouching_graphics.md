@@ -9,9 +9,15 @@ media:
   media/original1.html:
     title: Section 1 orginals
     description: The orginal images used to create the modified image.
+  media/compositing1.html:
+    title: The composite image
+    description: Imasge comprised of 3 other images.
   media/original2.html:
     title: Section 2 orginals
     descrption: The orginal images used to create the modified image.
+  media/robinLake.html
+    title: Robin at the Lake
+    description: Image of combined layers.
   media/flawedimage.html:
     title: 3 Flawd Image
     description: Image with flaws removed.
@@ -43,9 +49,9 @@ Retouching Image Graphics
 ## 2 Fake Picture
 
 ### 2.2 Remove Necklace
-1. Magic wand the necklace
-2. Remove the section
-3. 
+1. Select smudge tool and smudge skin over thread.
+2. Smudge shirt over whistle.
+3. Uses longer smudges to darken / lighten to the surroding area.
 
 ### 2.3 Move person to another background
 1. Trace the user and cut the backgrond from the image
@@ -55,7 +61,12 @@ Retouching Image Graphics
 5. position the user on the back ground.
 
 ### 2.4  Add Image Title
-1. 
+1. Add the text and increase the size.
+2. Set the text color to contrast.
+3. Go to filters -> distrotion -> ripple effect.
+4. Change the ripple period as desired.
+5. Go to filters -> lighting & shadowing -> drop shadow
+6. Adjust the opaticaty and apply.  
 
 ## 3 Removing Image Flaws
 1. Go to filters -> enhance -> red eye removal and remove red eyes.
